@@ -1,0 +1,7 @@
+.pie {
+  background-color: var(--color-primario);
+  color: var(--color-suave);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
