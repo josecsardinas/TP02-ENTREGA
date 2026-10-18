@@ -1,4 +1,4 @@
-# TP02 - Lenguajes IV
+# TP04 - Lenguajes IV
 
 Sitio simple en React + Vite con tres páginas (Inicio, Servicios y Contacto) y navegación con React Router.
 
@@ -37,3 +37,9 @@ de error personalizados. Los datos se envían por mail con [EmailJS](https://www
    Poner tu correo en "To Email", guardar y copiar el **Template ID** (pestaña Settings).
 4. **Account → General** y copiar la **Public Key**.
 5. Pegar los tres valores en `src/config/emailjs.js`.
+
+## Actualización TP4
+
+- **Servicios:** las tarjetas se generan desde un array local de objetos (`src/datos/servicios.js`) con tecnologías de TI; cada una incluye una imagen (logos de Devicon por CDN).
+- **Inicio:** consume la API pública de [dev.to](https://dev.to/api/articles) con `fetch` y muestra artículos de React (imagen, título, autor, fecha y reacciones).
+- **Contacto:** mapa de Google Maps embebido (UCASAL) junto al formulario.

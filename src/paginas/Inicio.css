@@ -32,3 +32,83 @@
     padding: 24px 18px;
   }
 }
+
+/* TP4: artículos obtenidos de la API de dev.to */
+.titulo-articulos {
+  margin: 48px 0 24px;
+  font-size: 22px;
+  color: var(--color-primario);
+}
+
+.mensaje-estado {
+  font-size: 16px;
+  color: var(--color-texto-suave);
+}
+
+.mensaje-error {
+  color: #c0392b;
+}
+
+.lista-articulos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  text-align: left;
+}
+
+.articulo {
+  background-color: var(--color-superficie);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  border-top: 4px solid var(--color-acento);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.articulo:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--sombra-fuerte);
+}
+
+.articulo-imagen {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  background-color: #e8eef3;
+}
+
+.articulo-cuerpo {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.articulo-cuerpo h4 {
+  font-size: 17px;
+  color: var(--color-primario);
+}
+
+.articulo-autor {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.articulo-meta {
+  font-size: 13px;
+  color: var(--color-texto-suave);
+}
+
+.articulo-cuerpo a {
+  margin-top: auto;
+  color: var(--color-acento);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.articulo-cuerpo a:hover {
+  text-decoration: underline;
+}

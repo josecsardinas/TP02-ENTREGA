@@ -5,7 +5,7 @@ function Menu() {
   return (
     <nav className="menu">
       <div className="menu-contenedor">
-        <h1 className="logo">TP02 - LENG IV</h1>
+        <h1 className="logo">TP04 - LENG IV</h1>
         <ul className="nav-links">
           <li>
             <NavLink to="/" end>Inicio</NavLink>

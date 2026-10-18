@@ -70,3 +70,23 @@
     padding: 22px;
   }
 }
+
+/* TP4: mapa embebido junto al formulario */
+.columna-izquierda {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mapa-contacto {
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  line-height: 0;
+}
+
+.mapa-contacto iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}

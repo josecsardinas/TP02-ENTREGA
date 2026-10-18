@@ -127,7 +127,7 @@ function FormularioContacto() {
           id="nombre"
           name="nombre"
           type="text"
-          placeholder="Ej: Juana Pérez"
+          placeholder="Ej: Josefina Sardinas"
           value={valores.nombre}
           onChange={handleChange}
           onBlur={handleBlur}
@@ -146,7 +146,7 @@ function FormularioContacto() {
           id="email"
           name="email"
           type="email"
-          placeholder="Ej: juana@correo.com"
+          placeholder="Ej: josefina@mail.com"
           value={valores.email}
           onChange={handleChange}
           onBlur={handleBlur}
